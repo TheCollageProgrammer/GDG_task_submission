@@ -16,46 +16,38 @@
   
   <body>
     <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="src/assets/transperent_img/image.png" alt="Logo" width="85" height="77" class="d-inline-block">
-          <div>
             <h4 class="header-text" >GDG RCOEM</h4>
-          </div>
         </a>
-        <ul class="nav justify-content-end" style="font-size: 22px;">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Event</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Alumni</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <label class="theme-switch">
-              <input type="checkbox" id="theme-toggle">
-              <span class="slider"></span>
-            </label>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" style="font-size: 22px;">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Event</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Alumni</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              <li class="nav-item">
+                <label class="theme-switch">
+                  <input type="checkbox" id="theme-toggle">
+                  <span class="slider"></span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <!-- body -->
          <div class="gdg-logo-container">
     
         <div class="google-text">
-            <span class="g-blue" style="font-size: 2.3cm;">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
+            <span class="g-blue" style="font-size: 68px;">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
         </div>
 
         <div class="group-chapter-wrapper">
@@ -67,8 +59,8 @@
     
     <!-- image -->
      <div class="container">
-        <img src="src/assets/img1.png" class="image-light" id="img1" alt="" width="750px" height="480px">
-        <img src="src/assets/transperent_img/img_1.png" class="image-dark" id="img1" alt="" width="750px" height="480px">
+        <img src="src/assets/img1.png" class="image-light img-fluid" id="img1" alt="" width="750px" height="480px"> 
+        <img src="src/assets/transperent_img/img_1.png" class="image-dark img-fluid" id="img1" alt="" width="750px" height="480px">
       </div>
         <div class="under_img">
         Google Developer Groups are community groups for college and university students interested in Google Developer technologies.
@@ -84,12 +76,12 @@
           <h2 class="text-center" id="section-title-1">Our Mission</h2>
         </div>
         <div class="container">
-          <div class="row" id="sub-section-1" style="margin-top: 75px;">
-            <div class="col-md-5 container-1" id="img2">
+          <div class="row mt-5" id="sub-section-1">
+            <div class="col-12 col-md-5 container-1" id="img2">
               <img src="src/assets/img2.png" class="img-thumbnail image-light" id="img2" alt="..." >
               <img src="src/assets/transperent_img/img_2.png" class="img-thumbnail image-dark" id="img2" alt="..." >
             </div>
-            <div class="col-md-7" id="text_container-1">
+            <div class="col-12 col-md-7" id="text_container-1">
                 <p class="text-end" id="text-1"><span style="font-size: 28px;">O</span>ur mission involves community engagement,<br> leadership development, bulding strong tech<br> foundation, while enabling all enthusiasts to<br> contribute to the global society.</p>
               <div class="blue-bar"></div>
               </div>
@@ -103,11 +95,11 @@
         </div>
         <div class="container">
           <div class="row" id="sub-section-2" style="margin-top: 75px;">
-            <div class="col-md-7" id="text_container-1">
+            <div class="col-12 col-md-7" id="text_container-1">
               <div class="green-bar"></div>
               <p class="text-start" id="text-3">We're a community-driven initiative aiming to bridge the gap between research and practice, develop evolutionary thinking and network throughout the process. We belive in connecting fellow developers, spreading stimulative ideas and working for a solution driven team.</p>
               </div>
-              <div class="col-md-5 container-1" id="img2">
+              <div class="col-12 col-md-5 container-1" id="img2">
               <img src="src/assets/img3.png" class="img-thumbnail image-light" id="img2" alt="..." >
               <img src="src/assets/transperent_img/img_3.png" class="img-thumbnail image-dark" id="img2" alt="..." >
             </div>
@@ -121,11 +113,11 @@
         </div>
         <div class="container">
           <div class="row" id="sub-section-1" style="margin-top: 75px;">
-            <div class="col-md-5 container-1" id="img2">
+            <div class="col-12 col-md-5 container-1" id="img2">
               <img src="src/assets/img4.png" class="img-thumbnail image-light" id="img2" alt="..." >
               <img src="src/assets/transperent_img/img_4.png" class="img-thumbnail image-dark" id="img2" alt="..." >
             </div>
-            <div class="col-md-7" id="text_container-1">
+            <div class="col-12 col-md-7" id="text_container-1">
                 <p class="text-end" id="text-3"><span style="font-size: 28px;">O</span>ur club helps students to connect, learn, empower and grow. Teamwork, innovative thinking, communication, and leading with solutions is what helps us achieve new heights.<br> The entire team works in coordination, to inspire and motivate the upcoming coding community to envolve the skills and broaden their horizons of knowledge.</p>
               <div class="yellow-bar"></div>
               </div>
@@ -299,7 +291,7 @@
                 </div>
             </div>
           <div class="footer-img">
-        <img src="src/assets/transperent_img/footer_footer.png" class="footer-decoration-img object-fit-cover" alt="Decorative geometric pattern">
+        <img src="src/assets/transperent_img/footer_footer.png" class="footer-decoration-img object-fit-cover">
           </div>
       </footer>
       <script src="src/scripts.js"></script>
