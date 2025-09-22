@@ -450,6 +450,9 @@
             .stat-item { flex-basis: 100%; }
             :root { --chart-size: 130px; }
             #img-section img { max-width: 95%; }
+            .footer-divider {display: none; }
+            .footer-right { max-width: 80%; }
+            #technologies { max-width: 80%; }
             p { max-width: 90%; }
             h1 { font-size: 2rem; }  
             h2 { font-size: 1.5rem; } 
